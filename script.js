@@ -108,3 +108,4 @@ $(".savey").on("click", function () {
     }
     localStorage.setItem('allNotes', JSON.stringify(allNotes))
     alert("All Data Saved")
+})
